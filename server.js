@@ -9,7 +9,6 @@ app.engine("handlebars", exphbs({
 
 app.set("view engine", "handlebars");
 app.set('views', './Views');
-
 app.use(express.static('public'));
 
 const port = process.env.PORT || 4000;
