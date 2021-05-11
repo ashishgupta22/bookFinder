@@ -3,13 +3,12 @@ const exphbs = require("express-handlebars");
 
 const app = express();
 
-// app.engine("handlebars", exphbs({
-// 	defaultLayout: "main"
-// }));
+ app.engine("handlebars", exphbs({
+ 	defaultLayout: "main"
+ }));
 
-// app.set("view engine", "handlebars");
-app.engine('hbs', exphbs({defaultLayout: 'main', extname: '.hbs'}));
-app.set('view engine', 'hbs');
+ app.set("view engine", "handlebars");
+app.set('views', './Views');
 
 app.use(express.static('public'));
 
