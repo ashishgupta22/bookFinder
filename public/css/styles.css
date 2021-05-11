@@ -1,0 +1,64 @@
+#main-body{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+body{
+    background-image: url("bgimage.jpg");
+    height: 500px;
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family:  cursive; 
+    font-size: 20px;
+}
+h1{
+    text-align: right;
+    font-weight: bold;
+    color: aquamarine;
+}
+.navbar-text{
+    margin-left: 30%;
+}
+.form-control{
+    width: 40%;
+    margin-top: 5%;
+    display: inline-flex;
+}
+.bg-dark{
+    opacity: 0.5;
+}
+.navbar-dark .navbar-text {
+    color: #fff;
+    font-weight: bold;    
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: black;
+    background-color: antiquewhite;
+}
+.container1{
+    background-image: url("homepage.jpg");
+    height: 622px;
+    margin-top: -5%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.books{
+    padding-top: 15%;
+    text-align: end;
+    position: fixed;
+    font-size: 30px;
+}
+.books1{
+    padding-top: 25%;
+    text-align: end;
+    position: fixed;
+    font-size: 30px;
+}
