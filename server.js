@@ -18,10 +18,10 @@ app.get("/", (req, res) => {
 	res.render("about.handlebars");
 });
 
-app.get("/about", (req, res) => {
+// app.get("/about", (req, res) => {
 	
-	res.render("about.handlebars");
-});
+// 	res.render("about.handlebars");
+// });
 
 app.get("/findBooks", (req, res) => {
 	
