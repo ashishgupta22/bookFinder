@@ -14,7 +14,7 @@ app.use(express.static('public'));
 
 const port = process.env.PORT || 4000;
 
-app.get("/", (req, res) => {
+app.get("/about", (req, res) => {
 	
 	res.render("about.handlebars");
 });
