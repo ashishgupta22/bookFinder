@@ -6,9 +6,9 @@ const app = express();
 app.engine("handlebars", exphbs({
 	defaultLayout: "main"
 }));
+app.set('views', path.join(__dirname, 'views/'));
 
 app.set("view engine", "handlebars");
-app.set('views', './Views');
 app.use(express.static('public'));
 
 const port = process.env.PORT || 4000;
